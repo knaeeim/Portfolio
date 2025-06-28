@@ -8,24 +8,27 @@ import ContactInfo from "../Components/ContactInfo";
 
 const HomeLayOut = () => {
     return (
-        <div className="">
+        <div className="overflow-x-hidden">
             <Navbar />
             <div className="bg-gray-800">
                 <div className="max-w-[1680px] mx-auto">
                     <Banner />
                 </div>
             </div>
+
             <div className="bg-white">
                 <div className="max-w-[1680px] mx-auto">
                     {/* Add your content here */}
                     <AboutMe />
                 </div>
             </div>
+
             <div className="bg-gray-800">
                 <div className="max-w-[1680px] mx-auto">
                     <Skills />
                 </div>
             </div>
+
             <div className="bg-white">
                 <div className="max-w-[1680px] mx-auto">
                     {/* Add your content here */}
