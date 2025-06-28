@@ -17,8 +17,8 @@ const AboutMe = () => {
                 <h1 className='text-5xl font-bold mb-10'>
                     About Me
                 </h1>
-                <p className='text-2xl text-gray-500 leading-relaxed text-justify'>
-                    I’m a passionate MERN stack developer with a strong foundation in data structures and algorithms, having solved 500+ problems across platforms like Codeforces, CodeChef, and LeetCode. While I’ve shifted my focus to front-end development with React, I also bring solid knowledge of backend technologies. I take pride in writing clean, maintainable code and enjoy tackling complex challenges as part of a team. I’m actively seeking full-time opportunities where I can contribute, grow, and work with the latest technologies.
+                <p className='text-xl text-gray-500 leading-relaxed text-justify'>
+                    I started programming in October 2023 with C and C++ at Phitron, focusing on problem solving and data structures. After successfully completing the Problem Solving Club—where I solved multiple challenging problems—I shifted my focus to web development. Since then, I’ve learned HTML, CSS, JavaScript, and React, building a variety of projects that have helped me sharpen my skills and gain practical experience. I genuinely enjoy coding because it allows me to create and bring ideas to life, which is always exciting and rewarding. Outside of programming, I’m a sports enthusiast who captained my university football team to a championship and was a runner-up in cricket. I’m also a passionate foodie, always eager to discover new and delicious flavors. Traveling and exploring new places is another hobby that keeps me inspired and motivated.
                 </p>
             </div>
         </div>
