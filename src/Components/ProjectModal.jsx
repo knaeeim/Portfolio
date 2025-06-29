@@ -13,7 +13,7 @@ const ProjectModal = ({ project, closeModal }) => {
                 readOnly
             />
             <div className="modal modal-open">
-                <div className="modal-box max-w-5xl w-full bg-gray-600 text-white">
+                <div className="modal-box max-w-5xl w-full bg-gray-800 text-white">
                     <h2 className="text-4xl font-bold text-center mb-4">
                         {project.name}
                     </h2>

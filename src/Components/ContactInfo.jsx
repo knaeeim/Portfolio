@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhoneAlt, FaWhatsapp, FaMapMarkerAlt, FaLinkedin, FaGithu
 
 const ContactInfo = () => {
     return (
-        <div id="Contact" className="py-20 px-5 md:px-0">
+        <div id="Contact" className="py-20 2xl:px-20 lg:px-16 md:px-12 px-3">
             <div className="w-4/6 mx-auto">
                 <h1 className="md:text-5xl text-3xl font-bold text-center text-white">
                     Get in Touch
@@ -13,7 +13,7 @@ const ContactInfo = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-evenly items-start gap-10 mt-16">
+            <div className="flex flex-col md:flex-row justify-between items-start gap-10 mt-16">
                 {/* Contact details */}
                 <div className="space-y-5 text-gray-300">
                     <p className="flex items-center gap-3">

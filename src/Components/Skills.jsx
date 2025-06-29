@@ -73,7 +73,7 @@ const Skills = () => {
     ];
 
     return (
-        <div id="Skills" className="py-20 px-5 md:px-10 text-center">
+        <div id="Skills" className="py-20 2xl:px-20 lg:px-16 md:px-12 px-3 text-center">
             {/* Main headline */}
             <h1 className="text-5xl font-bold mb-8 text-white">
                 Key Technologies & Languages
@@ -84,14 +84,14 @@ const Skills = () => {
                 challenging problems.
             </p>
 
-            <div className="flex flex-col md:flex-row justify-center items-start gap-10">
+            <div className="flex flex-col md:flex-row justify-center 2xl:items-start lg:items-center gap-10">
                 {/* Frameworks */}
                 <div className="flex-1">
                     <h2 className="text-3xl font-semibold mb-10 text-blue-500">
                         Frameworks & Tools
                     </h2>
                     <div
-                        data-aos="fade-right"
+                        data-aos="fade-up"
                         className="flex flex-wrap justify-center gap-8">
                         {frameWorks.map((logo, idx) => (
                             <img
@@ -111,7 +111,7 @@ const Skills = () => {
                         Languages
                     </h2>
                     <div
-                        data-aos="fade-left"
+                        data-aos="fade-up"
                         className="flex flex-wrap justify-center gap-8">
                         {languages.map((logo, idx) => (
                             <img

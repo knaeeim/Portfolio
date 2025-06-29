@@ -81,7 +81,7 @@ const Projects = () => {
             name: "Flexlance",
             images: [secFirst, secSecond],
             description1:
-                "Freelancing platform with job posting and application system, featuring auth and role-based access.",
+                "Welcome to Flexlance, a modern freelance task management platform where clients can post tasks and freelancers can bid in real-time. Built with a focus on user experience, authentication security, and dynamic frontend interactions.",
             description2:
                 "Built with React, Node.js, Express.js, and MongoDB, with modern UI and solid UX.",
             features: [
@@ -150,7 +150,7 @@ const Projects = () => {
             name: "DocTime",
             images: [thirdFirst, thirdSecond],
             description1:
-                "Doctor appointment booking platform supporting registration, scheduling, and doctor dashboard.",
+                "A sleek, modern doctor booking platform — built with React 19 and Tailwind CSS 4, offering a smooth experience to browse doctors, view profiles, and manage appointments.",
             description2:
                 "Built with React, Node.js, Express.js, and MongoDB, featuring authentication and a responsive design.",
             features: [
@@ -217,9 +217,9 @@ const Projects = () => {
     ];
 
     return (
-        <div id="Project" className="py-20 px-5 md:px-0">
-            <div className="md:w-3/5 w-full mx-auto">
-                <h1 className="md:text-5xl text-4xl font-bold text-center">
+        <div id="Project" className="py-20 2xl:px-20 xl:px-[78px] md:px-10 px-5">
+            <div className="lg:w-3/5 w-full mx-auto">
+                <h1 className="lg:text-5xl text-4xl font-bold text-center">
                     Projects that I built
                 </h1>
                 <p className="md:text-2xl text-lg text-gray-700 text-center mt-10">
@@ -232,14 +232,14 @@ const Projects = () => {
                 <div
                     key={project.id}
                     className={`flex flex-col ${
-                        project.reverse ? "md:flex-row-reverse" : "md:flex-row"
-                    } justify-evenly items-center ${
+                        project.reverse ? "lg:flex-row-reverse" : "lg:flex-row"
+                    } justify-between items-center ${
                         index === 0 ? "mt-16" : "md:mt-32 mt-24"
                     }`}>
                     {/* Image */}
                     <div
-                        data-aos={project.reverse ? "fade-left" : "fade-right"}
-                        className="md:w-[43%] w-full flex justify-between items-center rounded-2xl overflow-hidden">
+                        data-aos="fade-up"
+                        className="lg:w-[50%] w-full flex justify-between items-center rounded-2xl overflow-hidden">
                         <img
                             className="hover:scale-105 transition duration-300 h-[400px] object-cover max-w-full w-full"
                             src={project.images[0]}
@@ -249,8 +249,8 @@ const Projects = () => {
 
                     {/* Text */}
                     <div
-                        data-aos={project.reverse ? "fade-right" : "fade-left"}
-                        className="md:w-[43%] w-full md:px-10 pt-10 md:pt-0">
+                        data-aos="fade-up"
+                        className="lg:w-[50%] w-full lg:px-10 pt-10 lg:pt-0">
                         <h2 className="text-3xl font-semibold">
                             Project Name:{" "}
                             <span className="text-blue-500">

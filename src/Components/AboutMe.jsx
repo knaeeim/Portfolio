@@ -4,16 +4,16 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const AboutMe = () => {
     return (
-        <div id="AboutMe" className='py-20 px-5 md:px-0 flex flex-col md:flex-row gap-24 items-center justify-evenly'>
+        <div id="AboutMe" className='py-20 px-5 md:px-0 flex flex-col lg:flex-row lg:gap-24 gap-10 items-center justify-evenly'>
             {/* image div */}
             
-            <div data-aos="fade-right">
+            <div data-aos="fade-up">
                 <img src={naeeim} className='h-[500px] max-w-full rounded-2xl object-cover' alt="Profile" />
             </div>
 
             {/* text div */}
             
-            <div data-aos="fade-left"  className='md:w-3/6 w-full'>
+            <div data-aos="fade-up"  className='lg:w-3/6 w-[88%]'>
                 <h1 className='text-5xl font-bold mb-10'>
                     About Me
                 </h1>

@@ -8,35 +8,35 @@ import ContactInfo from "../Components/ContactInfo";
 
 const HomeLayOut = () => {
     return (
-        <div className="overflow-x-hidden md:overflow-x-visible">
+        <div className="overflow-x-hidden md:overflow-x-visible bg-gray-800">
             <Navbar />
             <div className="bg-gray-800">
-                <div className="max-w-[1680px] mx-auto">
+                <div className="2xl:max-w-[1680px] xl:max-w-7xl md:max-w-3xl mx-auto">
                     <Banner />
                 </div>
             </div>
 
             <div className="bg-white">
-                <div className="max-w-[1680px] mx-auto">
+                <div className="2xl:max-w-[1680px] xl:max-w-7xl md:max-w-3xl mx-auto">
                     {/* Add your content here */}
                     <AboutMe />
                 </div>
             </div>
 
             <div className="bg-gray-800">
-                <div className="max-w-[1680px] mx-auto">
+                <div className="2xl:max-w-[1680px] xl:max-w-7xl md:max-w-3xl mx-auto">
                     <Skills />
                 </div>
             </div>
 
             <div className="bg-white">
-                <div className="max-w-[1680px] mx-auto">
+                <div className="2xl:max-w-[1680px] xl:max-w-7xl md:max-w-3xl mx-auto">
                     {/* Add your content here */}
                     <Projects />
                 </div>
             </div>
             <div className="bg-gray-800">
-                <div className="max-w-[1680px] mx-auto">
+                <div className="2xl:max-w-[1680px] xl:max-w-7xl md:max-w-3xl mx-auto">
                     <ContactInfo />
                 </div>
             </div>
