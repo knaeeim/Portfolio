@@ -35,7 +35,7 @@ const Banner = () => {
                 </p>
                 <div className="flex lg:justify-start justify-center gap-4">
                     <a href="/src/assets/Naeeim's CV(J).pdf" download>
-                        <button className="btn bg-pink-600 mt-5 border-none">
+                        <button className="btn bg-pink-600 mt-5 border-none text-white">
                             <FaDownload /> Download Resume
                         </button>
                     </a>
