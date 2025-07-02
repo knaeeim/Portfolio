@@ -1,5 +1,4 @@
 import React from "react";
-import naeeim from "../assets/naeeim.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "motion/react";
@@ -34,7 +33,7 @@ const Banner = () => {
                     Let’s connect and bring impactful ideas to life.
                 </p>
                 <div className="flex lg:justify-start justify-center gap-4">
-                    <a href="/src/assets/Naeeim's CV(J).pdf" download>
+                    <a href="./Naeeim'sCV(J).pdf" download>
                         <button className="btn bg-pink-600 mt-5 border-none text-white">
                             <FaDownload /> Download Resume
                         </button>
