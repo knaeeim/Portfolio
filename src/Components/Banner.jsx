@@ -1,4 +1,5 @@
 import React from "react";
+import naeeim from "../assets/naeeim.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "motion/react";
