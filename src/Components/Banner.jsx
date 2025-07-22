@@ -34,7 +34,7 @@ const Banner = () => {
                     Let’s connect and bring impactful ideas to life.
                 </p>
                 <div className="flex lg:justify-start justify-center gap-4">
-                    <a href="./Naeeim'sCV(J).pdf" download>
+                    <a href="./Resume.pdf" download>
                         <button className="btn bg-pink-600 mt-5 border-none text-white">
                             <FaDownload /> Download Resume
                         </button>
